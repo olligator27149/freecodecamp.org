@@ -56,6 +56,15 @@ function reusableFunction() {
  }
  reusableFunction()
 
- 
+ ------------------------------------------
+
+ //passing-values-to-functions-with-arguments
+
+ function  functionWithArgs(x,y) {
+    console.log(x + y);
+  }
+  functionWithArgs(1,2);
+  
+
 
 
