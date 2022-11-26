@@ -65,6 +65,16 @@ function reusableFunction() {
   }
   functionWithArgs(1,2);
   
+-------------------------------------------
+
+//return-a-value-from-a-function-with-return
+
+function timesFive(num) {
+    return num * 5;
+  }
+  
+  const answer = timesFive(10);
+  
 
 
 
