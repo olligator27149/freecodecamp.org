@@ -100,5 +100,36 @@ function fun2() {
   console.log(output);
 }
 
+-----------------------------------------
+
+//local-scope-and-functions
+function myLocalScope() {
+    // Only change code below this line
+    const myVar = 5;
+    console.log('inside myLocalScope', myVar);
+  }
+  myLocalScope();
+  
+  // Run and check the console
+  // myVar is not defined outside of myLocalScope
+  console.log('outside myLocalScope', myVar);
+
+  ---------------------------------------
+
+//global-vs--local-scope-in-functions
+
+// Setup
+const outerWear = "T-Shirt";
+
+function myOutfit() {
+  // Only change code below this line
+  const outerWear = "sweater";
+  // Only change code above this line
+  return outerWear;
+}
+
+myOutfit();
+
+
 
 
