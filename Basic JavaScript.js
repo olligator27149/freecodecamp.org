@@ -75,6 +75,30 @@ function timesFive(num) {
   
   const answer = timesFive(10);
   
+  -----------------------------------------
+
+  //global-scope-and-functions
+
+  // Declare the myGlobal variable below this line
+const myGlobal = 10;
+
+// Assign 5 to oopsGlobal Here
+function fun1(num) {
+  return num * 5;
+}
+const oopsGlobal = fun1(1);
+// Only change code above this line
+
+function fun2() {
+  var output = "";
+  if (typeof myGlobal != "undefined") {
+    output += "myGlobal: " + myGlobal;
+  }
+  if (typeof oopsGlobal != "undefined") {
+    output += " oopsGlobal: " + oopsGlobal;
+  }
+  console.log(output);
+}
 
 
 
