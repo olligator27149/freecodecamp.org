@@ -215,7 +215,7 @@ function testEqual(val) {
 
   ---------------------------------------
     //comparison-with-the-strict-equality-operator
-    
+
 // Setup
 function testStrict(val) {
     if (val===7) { // Change this line
@@ -225,3 +225,16 @@ function testStrict(val) {
   }
   
   testStrict(10);
+
+  ---------------------------------------
+  //practice-comparing-different-values
+
+  // Setup
+function compareEquality(a, b) {
+    if (a === b) { // Change this line
+      return "Equal";
+    }
+    return "Not Equal";
+  }
+  
+  compareEquality(10, "10");
