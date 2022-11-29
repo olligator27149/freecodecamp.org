@@ -201,7 +201,6 @@ function trueOrFalse(wasThatTrue) {
   }
 
   ---------------------------------------
-
   //comparison-with-the-equality-operator
 
   // Setup
@@ -214,4 +213,15 @@ function testEqual(val) {
   
   testEqual(10);
 
+  ---------------------------------------
+    //comparison-with-the-strict-equality-operator
+    
+// Setup
+function testStrict(val) {
+    if (val===7) { // Change this line
+      return "Equal";
+    }
+    return "Not Equal";
+  }
   
+  testStrict(10);
