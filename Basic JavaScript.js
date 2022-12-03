@@ -540,6 +540,33 @@ switch (val) {
 switchOfStuff(1);
 
 ---------------------------------------
+//multiple-identical-options-in-switch-statements
+function sequentialSizes(val) {
+  let answer = "";
+  // Only change code below this line
+switch (val) {
+  case 1:
+  case 2:
+  case 3:
+    return "Low";
+  
+  case 4:
+  case 5:
+  case 6:
+    return "Mid";
+   
+  case 7:
+  case 8:
+  case 9:
+    answer = "High";
+    
+  // Only change code above this line
+  return answer;
+}
+}
+sequentialSizes(1);
+
+---------------------------------------
 
 
 
