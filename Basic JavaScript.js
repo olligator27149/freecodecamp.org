@@ -728,3 +728,14 @@ const myDog = {
 // Only change code below this line
 
 ---------------------------------------
+//add-new-properties-to-a-javascript-object
+const myDog = {
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+ myDog["bark"] = "gav-gav";
+
+ ---------------------------------------
+ 
