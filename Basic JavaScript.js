@@ -779,3 +779,33 @@ if (obj.hasOwnProperty(checkProp)) {
 }
 
 ---------------------------------------
+//manipulating-complex-objects
+const myMusic = [
+  {
+    "artist": "Billy Joel",
+    "title": "Piano Man",
+    "release_year": 1973,
+    "album": "Only you",
+    "formats": [
+      "CD",
+      "8T",
+      "LP"
+    ],
+    "gold": true
+  }, 
+  {
+    "artist": "the Beatles",
+    "title": "Yeasterday",
+    "release_year": 1965,
+    "album": "Hren znaet",
+    "formats": [
+      "CD",
+      "8T",
+      "LP"
+    ]
+  }
+];
+
+---------------------------------------
+
+
