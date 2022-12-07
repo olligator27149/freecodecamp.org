@@ -13,3 +13,12 @@ function helloWorld() {
 };
 
 --------------------------------------------
+//Remove First and Last Character
+function removeChar(str){
+  str = str.split('');
+  str.shift();
+  str.pop();
+  return str.join('');
+};
+
+--------------------------------------------
