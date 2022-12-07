@@ -927,3 +927,13 @@ for (let i = 9; i > 0; i -= 2) {
 // Only change code below this line
 
 ---------------------------------------
+//iterate-through-an-array-with-a-for-loop
+// Setup
+const myArr = [2, 3, 4, 5, 6];
+for (let total = 0; total < 20; total++) {
+   console.log(myArr[total]);
+}
+
+// Only change code below this line
+
+---------------------------------------
