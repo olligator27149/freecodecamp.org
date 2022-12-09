@@ -24,7 +24,7 @@ function removeChar(str){
 --------------------------------------------
 //Sum of positive
 function positiveSum(arr) {
-  return arr.filter(i => i > 0).reduce((sum,i) => sum + i, 0);
+  return arr.reduce((sum,i) => i > 0 ? sum + i : sum, 0);
  }
 
 --------------------------------------------
