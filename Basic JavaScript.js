@@ -1079,3 +1079,10 @@ function randomWholeNum() {
     checkEqual(1, 2);
 
     ---------------------------------------
+    //use-multiple-conditional-ternary-operators
+    function checkSign(num) {
+      return (num > 0) ? "positive" : (num < 0) ? "negative" : "zero";
+     }
+     checkSign(10);
+
+     ---------------------------------------
