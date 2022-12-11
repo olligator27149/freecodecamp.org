@@ -1114,4 +1114,15 @@ function countdown(n){
     console.log(rangeOfNumbers(1, 8));
 
     ---------------------------------------
-    
+    //compare-scopes-of-the-var-and-let-keywords
+    function checkScope() {
+      const i = 'function scope';
+      if (true) {
+        let i = 'block scope';
+        console.log('Block scope i is: ', i);
+      }
+      console.log('Function scope i is: ', i);
+      return i;
+    }
+
+    ---------------------------------------
