@@ -1101,4 +1101,17 @@ function countdown(n){
   // Only change code above this line
 
   ---------------------------------------
-  
+  //use-recursion-to-create-a-range-of-numbers
+  function rangeOfNumbers(startNum, endNum) {
+    if (startNum <= endNum) {
+        const countArray = rangeOfNumbers(startNum,endNum-1);
+        countArray.push(endNum);
+        return countArray;
+      } else {
+        return [];
+      }
+    };
+    console.log(rangeOfNumbers(1, 8));
+
+    ---------------------------------------
+    
