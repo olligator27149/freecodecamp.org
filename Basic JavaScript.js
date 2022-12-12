@@ -1159,3 +1159,10 @@ Object.freeze(MATH_CONSTANTS);
 const PI = freezeObj();
 
 ---------------------------------------
+//use-arrow-functions-to-write-concise-anonymous-functions
+const magic = () => new Date;
+//function() {
+//  return new Date();
+//};
+
+---------------------------------------
