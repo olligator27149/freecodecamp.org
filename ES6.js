@@ -66,3 +66,10 @@ const increment = (number, value=1) => number + value;
 // Only change code above this line
 
 ---------------------------------------
+//use-the-rest-parameter-with-function-parameters
+const sum = (...args) => {
+ 
+    return args.reduce((a, b) => a + b, 0);
+  }
+
+  
