@@ -127,4 +127,12 @@ const HIGH_TEMPERATURES = {
   // Only change code above this line
 
   ---------------------------------------
-  
+  //use-destructuring-assignment-to-assign-variables-from-arrays
+  let a = 8, b = 6;
+
+// Only change code below this line
+[a, b] = [b, a];
+
+console.log("a=" + a, "b=" + b);
+
+---------------------------------------
