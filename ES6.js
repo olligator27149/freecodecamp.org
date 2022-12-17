@@ -192,4 +192,4 @@ function removeFirstTwo(list) {
   
   const failuresList = makeList(result.failure);
 
-  ---------------------------------------
+  -------------------------------------------
