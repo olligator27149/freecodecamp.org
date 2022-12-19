@@ -208,3 +208,16 @@ bicycle.setGear(3);
 console.log(bicycle.gear);
 
 ----------------------------------------
+//use-class-syntax-to-define-a-constructor-function
+// Only change code below this line
+class Vegetable {
+  constructor(name) {
+    this.name = name;
+  }
+}
+// Only change code above this line
+
+const carrot = new Vegetable('carrot');
+console.log(carrot.name); // Should display 'carrot'
+
+----------------------------------------
