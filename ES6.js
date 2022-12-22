@@ -301,3 +301,9 @@ import subtract from "./math_functions.js";
 subtract(7,4);
 
 ----------------------------------------
+//create-a-javascript-promise
+const makeServerRequest = new Promise((resolve, reject) => {
+
+});
+
+----------------------------------------
