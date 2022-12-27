@@ -378,3 +378,9 @@ let waldoRegex = /Waldo/; // Change this line
 let result = waldoRegex.test(waldoIsHiding);
 
 ----------------------------------------
+//match-a-literal-string-with-different-possibilities
+let petString = "James has a pet cat.";
+let petRegex = /dog|cat|bird|fish/; // Change this line
+let result = petRegex.test(petString);
+
+----------------------------------------
