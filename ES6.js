@@ -384,3 +384,9 @@ let petRegex = /dog|cat|bird|fish/; // Change this line
 let result = petRegex.test(petString);
 
 ----------------------------------------
+//ignore-case-while-matching
+let myString = "freeCodeCamp";
+let fccRegex = /freeCodeCamp|FreeCodeCamp|FreeCOdeCamp|FreeCodecamp|FrEeCoDeCamp|FrEeCodECamp|FReeCodeCAmp|FreecodeCamp/; // Change this line
+let result = fccRegex.test(myString);
+
+----------------------------------------
