@@ -396,3 +396,10 @@ let codingRegex = /coding/; // Change this line
 let result = extractStr.match(codingRegex); // Change this line
 
 ----------------------------------------
+//find-more-than-the-first-match
+let twinkleStar = "Twinkle, twinkle, little star";
+let starRegex = /twinkle/gi; // Change this line
+let result = twinkleStar.match(starRegex); // Change this line
+
+----------------------------------------
+
